@@ -1,0 +1,39 @@
+{
+  "name": "nutrisense-ai-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll=false --coverage",
+    "lint": "eslint src/ --ext .js,.jsx --max-warnings 0",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "chart.js": "^4.4.3",
+    "react-chartjs-2": "^5.2.0",
+    "firebase": "^10.12.2",
+    "@googlemaps/js-api-loader": "^1.16.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-react-app": "^7.0.1",
+    "prettier": "^3.3.2",
+    "@testing-library/react": "^14.3.1",
+    "@testing-library/jest-dom": "^6.4.6"
+  },
+  "eslintConfig": {
+    "extends": ["react-app"],
+    "rules": {
+      "no-unused-vars": "warn",
+      "no-console": "warn"
+    }
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version"]
+  }
+}

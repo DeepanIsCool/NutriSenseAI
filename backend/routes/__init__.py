@@ -1,0 +1,1 @@
+"""NutriSense AI route package."""
